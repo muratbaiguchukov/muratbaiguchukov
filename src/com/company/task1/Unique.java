@@ -6,9 +6,9 @@ import java.util.Set;
 
 public class Unique {
     public static void main(String[] args) {
-        String[] str1 = {"1, 2, 3, 4, 4, 5"};
+        String[] str = {"1, 2, 3, 4, 4, 5"};
         ArrayList<String> arr = new ArrayList<>();
-        String[] strs1 = arr.toArray(new String[arr.size()]);
+        String[] strs = arr.toArray(new String[arr.size()]);
         Set<String> hashSet = new HashSet<>();
         hashSet.add("1");
         hashSet.add("2");
